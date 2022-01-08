@@ -15,11 +15,15 @@ async function getEmailInfo(email) {
 bot.on("polling_error", console.log);
 
 bot.onText(/\/start/, async (msg) => {
-    bot.sendMessage(msg.chat.id, "");
+    bot.sendMessage(msg.chat.id, "Welcome to Email V Bot\nI can help you finding information about Emails ;)");
 });
 
 bot.onText(/\/help/, async (msg) => {
-    bot.sendMessage(msg.chat.id, "");
+    bot.sendMessage(msg.chat.id, "Help Section :\n/check [email Address]\n/developer");
+});
+
+bot.onText(/\/developer/, async (msg) => {
+    bot.sendMessage(msg.chat.id, "Thanks for using my Bot\nDeveloped by @aryan1403\nRepository : https://github.com/aryan1403/EmailVBot");
 });
 
 bot.onText(/\/check (.+)/, async (msg, match) => {
