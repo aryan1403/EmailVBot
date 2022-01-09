@@ -6,7 +6,7 @@
 ## Deploy
    Deploy yourself for your own custom purposes.
 
-   [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aryan1403/EmailVBot/)
+   Use Heroku CLI to deploy ;)
 
    **Note** :- Please do not spam with this service we will not entertain any remedies.
 
